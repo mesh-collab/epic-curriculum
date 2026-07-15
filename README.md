@@ -27,7 +27,15 @@ uv run python -m ipykernel install --user --name=epic-curriculum --display-name 
 uv run jupyter lab
 ```
 
-Open the notebook and make sure the kernel in the top-right says **EPIC Curriculum**.
+Open a notebook and make sure the kernel in the top-right says **EPIC Curriculum**. `uv sync`
+already installed everything the notebooks need, including
+[`nuosclab`](https://github.com/gavinsdavies/nuosclab), the package the neutrino notebooks'
+sliders run on — there is no separate install step for it.
+
+> [!NOTE]
+> `nuosclab` is a new, actively developed research package (currently `v0.8.0`, pre-1.0)
+> written for exactly this kind of teaching and validation use. Its API can still change
+> between versions, so if something about it looks rough or in flux, that's expected.
 
 ## Linting
 
