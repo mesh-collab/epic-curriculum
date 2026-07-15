@@ -8,6 +8,7 @@ dependencies = [
     "ipywidgets>=8.1",
     "jupyterlab>=4.1",
     "matplotlib>=3.8",
+    "nuosclab @ git+https://github.com/gavinsdavies/nuosclab.git@v0.8.0",
     "numpy>=1.26",
     "pandas>=2.2",
 ]
