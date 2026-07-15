@@ -4,11 +4,20 @@ Introductory Python and Jupyter tutorial notebook for the EPIC (Exploring Partic
 Physics Integrated with Computing) summer program, run under the MESH (Mississippi
 EPSCoR Scientific Hub) partnership.
 
-## Notebook
+## Notebooks
 
 - `notebooks/00_python_and_jupyter_intro.ipynb` - Jupyter basics, core Python
   (variables, lists, conditionals, loops), particle physics context, GitHub workflow,
   building histograms, and applying a data cut with pandas.
+- `notebooks/neutrino_part1_oscillation_spectra.ipynb` - NOvA/DUNE toy near/far
+  detector energy spectra via `nuosclab`, Poisson toy-statistics fluctuations, and
+  finding the oscillation dip in an overlay/ratio plot.
+- `notebooks/neutrino_part2_parameter_explorer.ipynb` - turns the spectrum from part 1
+  into a parameter study, using `nuosclab` widgets to vary experiment, θ₂₃, Δm²₃₂, and
+  δCP and see how the oscillation pattern responds.
+- `notebooks/neutrino_bonus_nsi_explorer.ipynb` - extension notebook exploring
+  Non-Standard Interactions (NSI): a single ε_eμ/δ_eμ knob layered on top of the
+  standard three-flavor picture from part 2.
 
 ## Setup
 
